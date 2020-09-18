@@ -253,7 +253,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (>= 104)
-  jekyll (= 3.9.0)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
