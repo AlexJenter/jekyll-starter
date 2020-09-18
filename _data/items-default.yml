@@ -1,0 +1,14 @@
+- label: 500px
+  link: example.com
+  logo: "500px-brands.svg"
+  platform: ruby
+
+- label: Accessible Icon Brands
+  link: example.com
+  logo: "accessible-icon-brands.svg"
+  platform: ruby
+
+- label: Autoprefixer
+  link: example.com
+  logo: "autoprefixer-brands.svg"
+  platform: sass

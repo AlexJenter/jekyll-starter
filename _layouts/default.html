@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <h1>{{ page.title }}</h1>
+
+    <section>{{ content }}</section>
+
+    <ul>
+      {% for item in site.data.items-default %}
+      <li>
+        {{ item.label }} <br />
+        {{ item.link }} <br />
+        <img src="/assets/img/{{item.logo}}" width="150" alt="" />
+        {{ item.platform }}
+      </li>
+      {% endfor %}
+    </ul>
+
+    <footer>
+      &copy; to me, all icons from font awesome, see
+      <a href="https://fontawesome.com/license">license</a>
+    </footer>
+  </body>
+</html>
