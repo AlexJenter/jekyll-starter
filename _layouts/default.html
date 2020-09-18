@@ -15,7 +15,12 @@
       <li>
         {{ item.label }} <br />
         {{ item.link }} <br />
-        <img src="assets/img/{{item.logo | relative_url}}" width="150" alt="" />
+
+        <img
+          src="{{ 'assets/img/' | append: item.logo | relative_url }}"
+          width="150"
+          alt=""
+        />
         {{ item.platform }}
       </li>
       {% endfor %}
