@@ -5,6 +5,4 @@
 layout: default
 ---
 
-hello body
-
-lala
+JA JA DING DONG
